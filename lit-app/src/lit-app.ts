@@ -13,8 +13,6 @@ export class LitApp extends LitElement {
             }
 
             .container {
-                color: #fff;
-                background-color: #333;
             }    
         `
     ];
@@ -23,6 +21,10 @@ export class LitApp extends LitElement {
     @property() token = '';
 
 
+    connectedCallback() {
+        super.connectedCallback();
+        this.token = localStorage.getItem('token') || '';
+    }
 
 
     render() {
