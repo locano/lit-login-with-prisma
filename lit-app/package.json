@@ -7,6 +7,8 @@
     "dev": "vite"
   },
   "dependencies": {
+    "@conectate/ct-button": "^4.4.8",
+    "@material/web": "^2.2.0",
     "lit": "^3.2.1"
   },
   "devDependencies": {
