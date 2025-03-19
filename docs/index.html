@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            font-family: 'Georgia', serif;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 0.5em 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100px;
+            margin: 0.5em;
+            border: 1px solid #ddd;
+            padding: 5px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido</h1>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Sobre el Proyecto</h2>
+            <p>Este proyecto es un template de login que utiliza LitElement para la interfaz de usuario, Express como API y Prisma para la gestión de la base de datos. El objetivo es demostrar cómo estas tecnologías pueden integrarse para crear una aplicación web moderna y eficiente.</p>
+            <p>LitElement permite crear componentes web reutilizables y eficientes, mientras que Express proporciona una estructura robusta para manejar las solicitudes del servidor. Prisma facilita la interacción con la base de datos, permitiendo realizar consultas y mutaciones de manera sencilla y segura.</p>
+            <p>A continuación se presentan ejemplos de implementación y cómo estas tecnologías se relacionan entre sí:</p>
+            <ul>
+                <li>Creación de componentes de formulario de login con LitElement.</li>
+                <li>Configuración de rutas y controladores en Express para manejar las solicitudes de autenticación.</li>
+                <li>Uso de Prisma para validar y almacenar la información de los usuarios en la base de datos.</li>
+            </ul>
+            <p>Este proyecto utiliza las siguientes tecnologías:</p>
+            <ul>
+                <li><a href="https://lit.dev/" target="_blank">LitElement</a></li>
+                <li><a href="https://www.prisma.io/" target="_blank">Prisma</a></li>
+                <li><a href="https://nodejs.org/" target="_blank">Node.js</a></li>
+                <li><a href="https://expressjs.com/" target="_blank">Express</a></li>
+                <li><a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a></li>
+            </ul>
+            <div>
+                <img src="images/lit-logo.png" alt="LitElement">
+                <img src="images/prisma-logo.png" alt="Prisma">
+                <img src="images/nodejs-logo.svg" alt="Node.js">
+                <img src="images/express-logo.png" alt="Express">
+                <img src="images/postgresql-logo.png" alt="PostgreSQL">
+            </div>
+        </section>
+        <section id="features">
+            <h2>Características</h2>
+            <p>El proyecto incluye las siguientes características:</p>
+            <ul>
+                <li>Autenticación de usuarios</li>
+                <li>Gestión de base de datos</li>
+                <li>Interfaz de usuario moderna</li>
+            </ul>
+        </section>
+        <section id="repository">
+            <h2>Repositorio</h2>
+            <p>Puedes encontrar el código fuente de este proyecto en el siguiente enlace:</p>
+            <p><a href="https://github.com/locano/lit-login-with-prisma" target="_blank">Repositorio en GitHub</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
